@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+  
+    height: 150vh;
+    background-color: cadetblue;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+
+}
+
+.steam{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #fff;
+    position: absolute;
+    animation-name: steam;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    margin-right: 140px;
+    margin-top: 114px;
+  
+
+}
+.steam2{
+    
+        width: 100px;
+        height: 100px;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        background-color: #fff;
+   position: absolute;
+  animation-name: steam;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  margin-right: 140px;
+  margin-top: 114px;
+}
+.steam3{
+   
+        width: 120px;
+        height: 120px;
+        border: 1px solid #fff;
+        border-radius: 100px;
+        background-color: #fff;
+        position: absolute;
+        animation-name: steam;
+        animation-duration: 4s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        margin-right: 140px;
+        margin-top: 114px;
+       
+}
+
+.steam4{
+    width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #ffffff;
+   
+  position: absolute;
+  animation-name: steam;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  margin-right: 140px;
+  margin-top: 114px;
+
+}
+
+@keyframes steam{
+    0%{
+        top: 0px;
+        bottom: 250px;
+    
+        opacity: 0.0 ;
+    }
+    25%{
+      bottom: 200px;
+     
+      opacity: 0.5;
+    }
+    
+      50%{
+        bottom: 0px;
+        top: 200px;
+        opacity: 0.0 ;
+    
+      }
+      100%{
+        top: 200px;
+        bottom: 0;
+        opacity: 0.00;
+        /* z-index: -1; */
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cup{
+    width: 349px;
+    height: 252px;
+    background-color: #fff;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 163px;
+    
+    
+ 
+}
+.cup_botton{
+    width: 365px;
+    height: 45px;
+    background-color: #fff;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 163px;
+    margin-top: 215px;
+  
+   
+}
+.cup_left{
+    width: 184px;
+    height: 169px;
+    border-radius: 100px;
+    /* background-color:  cadetblue; */
+    border-top: 17px solid #fff ;
+    border: 21px solid #fff;
+  border-left: 12px solid #fff;
+  margin-left: -73px;
+    margin-top: -83px;
+}
+
+
+
+
+
+
+
